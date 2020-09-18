@@ -11,6 +11,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "build:style": "tailwind build src/styles/tailwind.css -o src/styles/tailwind.bundle.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,5 +31,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "autoprefixer": "^10.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.4",
+    "enzyme-to-json": "^3.5.0",
+    "postcss-cli": "^7.1.2",
+    "prop-types": "^15.7.2",
+    "tailwindcss": "^1.8.10"
   }
 }
