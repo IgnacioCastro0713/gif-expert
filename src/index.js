@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/tailwind.bundle.css';
-import App from './App';
+import './assets/styles/tailwind.bundle.css';
+import GifExpertApp from './GifExpertApp';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>,
+  <GifExpertApp/>,
   document.getElementById('root')
 );

@@ -11,7 +11,7 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "build:style": "tailwind build src/styles/tailwind.css -o src/styles/tailwind.bundle.css",
+    "build:style": "tailwind build src/assets/styles/tailwind.css -o src/assets/styles/tailwind.bundle.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
