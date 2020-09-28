@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import {AddCategory, GifGrid} from "./components/";
+import { AddCategory, GifGrid } from "./components";
 
 function GifExpertApp() {
-
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState(['Rick and Morty']);
 
   return (
     <>
@@ -13,7 +12,7 @@ function GifExpertApp() {
           <AddCategory updateCategories={ setCategories }/>
         </div>
       </div>
-      <div className="flex w-full mx-10">
+      <div className="main-images mb-8 mx-5">
         <ol>
           {
             categories.map(category => <GifGrid key={category} category={category}/>)
@@ -24,5 +23,4 @@ function GifExpertApp() {
   );
 }
 
-//SoMXF2RPOmSnZhju04jYCMiM12k08RTb
 export default GifExpertApp;

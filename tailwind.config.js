@@ -15,6 +15,10 @@ module.exports = {
       }
     },
   },
-  variants: {},
+  variants: {
+    translate: ['responsive', 'hover', 'focus', 'motion-safe'],
+    animation: ['responsive', 'motion-safe', 'motion-reduce'],
+    backgroundColor: ['responsive', 'hover', 'focus', 'active']
+  },
   plugins: [],
 }

@@ -1,34 +1,29 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
+import GifCard from "../GifCard";
+import { useFetchGifs } from "../../hooks/useFetchGifs";
 
 function GifGrid({ category }) {
-
-  useEffect(() => {
-    (async () => {
-      const url = "https://api.giphy.com/v1/gifs/search?q=Rick+and+Morty&limit=10&api_key=SoMXF2RPOmSnZhju04jYCMiM12k08RTb";
-      const res = await fetch(url);
-      const { data } = await res.json();
-
-      const gifs = data.map(img => ({
-        id: img.id,
-        title: img.title,
-        url: img.images?.downsized_medium.url
-      }));
-
-    })();
-
-  }, [category]);
-
+  const { loading, images } = useFetchGifs(category);
 
   return (
     <>
-      <h3>{ category }</h3>
+      { loading &&
+      <div className="flex justify-center">
+        <div className="ellipsis"><div/><div/><div/><div/></div>
+      </div>
+      }
+      <div className="images grid grid-cols-1 md:grid-cols-6 gap-8 mb-3">
+        {
+          images.map(image => <GifCard key={ image.id } image={ image }/>)
+        }
+      </div>
     </>
   );
 }
 
 GifGrid.propTypes = {
-  category: PropTypes.string
+  category: PropTypes.string.isRequired
 };
 
 export default GifGrid;

@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 function AddCategory({ updateCategories }) {
-
   const [inputValue, setInputValue] = useState("");
 
   const handleInputValue = e => setInputValue(e.target.value);
 
   const handleSubmitCategory = e => {
     e.preventDefault();
-    updateCategories(preStateCategories => [inputValue, ...preStateCategories]);
+    updateCategories(prevStateCategories => [inputValue, ...prevStateCategories]);
     setInputValue("");
   };
 
