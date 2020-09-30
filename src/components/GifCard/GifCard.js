@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { useClipboard } from 'use-clipboard-copy';
 
 function GifCard({ image: { title, url } }) {
-  const tooltipEl = useRef(null);
+  const tooltipEl = useRef();
   const clipboard = useClipboard();
 
   const copyToClipboard = useCallback(() => {
