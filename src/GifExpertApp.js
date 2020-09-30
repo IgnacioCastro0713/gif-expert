@@ -8,7 +8,7 @@ function GifExpertApp() {
     <>
       <div className="flex justify-center p-16 pt-10">
         <div className="mt-2 w-128">
-          <img src={ `${ process.env.PUBLIC_URL }/app-logo.png` } alt="Gif Expert logo"/>
+          <img src={ `${window.location}/app-logo.png` } alt="Gif Expert logo"/>
           <AddCategory updateCategories={ setCategories }/>
         </div>
       </div>
