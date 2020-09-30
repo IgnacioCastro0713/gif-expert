@@ -68,7 +68,7 @@
       <recent name="D:\User\ignac\Escritorio\gif-expert" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.rename:build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -111,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.rename:build" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.build:style" />
         <item itemvalue="npm.start" />
       </list>
