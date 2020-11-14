@@ -1,11 +1,13 @@
 {
   "name": "gif-expert",
+  "homepage": "ignaciocastro0713.github.io/gif-expert",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^3.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
@@ -14,6 +16,10 @@
   "scripts": {
     "build:style": "tailwind build src/assets/styles/tailwind.css -o src/assets/styles/tailwind.bundle.css",
     "rename:build": "node -e \"require('fs').rename('./build', 'docs', function(err) { if (err) console.log(err); console.log('directory successfully renamed!') })\"",
+    "prebuild": "npm run build:styles",
+    "prestart": "npm run build:styles",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

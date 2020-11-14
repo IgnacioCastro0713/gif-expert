@@ -12,7 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d511df1a-ffe9-4ebe-8071-927841a10f06" name="Default Changelist" comment="fix error in index.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GifExpertApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/GifExpertApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <recent name="D:\User\ignac\Escritorio\gif-expert" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.rename:build">
+  <component name="RunManager" selected="npm.build:style">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -111,9 +112,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build:style" />
         <item itemvalue="npm.rename:build" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.build:style" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -130,6 +131,8 @@
       <workItem from="1600484347407" duration="8053000" />
       <workItem from="1600570654970" duration="4110000" />
       <workItem from="1601179531705" duration="29439000" />
+      <workItem from="1605328911941" duration="149000" />
+      <workItem from="1605329069103" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="beginning UI, first look...">
       <created>1600491733125</created>
