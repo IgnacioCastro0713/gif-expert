@@ -15,7 +15,6 @@
   },
   "scripts": {
     "build:style": "tailwind build src/assets/styles/tailwind.css -o src/assets/styles/tailwind.bundle.css",
-    "rename:build": "node -e \"require('fs').rename('./build', 'docs', function(err) { if (err) console.log(err); console.log('directory successfully renamed!') })\"",
     "prebuild": "npm run build:styles",
     "prestart": "npm run build:styles",
     "predeploy": "npm run build",
