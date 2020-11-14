@@ -6,14 +6,23 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d511df1a-ffe9-4ebe-8071-927841a10f06" name="Default Changelist" comment="fix error in index.html">
+    <list default="true" id="ab38da63-fe81-42b2-b763-4f240673630a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/components/GifCard.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +32,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -31,17 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="2" />
-  </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="hiddenUrls">
-      <set>
-        <option value="https://github.com/IgnacioCastro0713/gif-expert" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1hgrvLLr2Sju1K7xjl9ClFcTcSg" />
+  <component name="ProjectId" id="1kGdhMH00afJJANkSKNYw4AkrsP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,62 +47,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../User/ignac/Escritorio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
-    <property name="ts.external.directory.path" value="C:\Users\ignac\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\202.6948.73\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projects\Personal\gif-expert\public" />
-      <recent name="D:\projects\Personal\gif-expert\src\assets" />
-      <recent name="D:\projects\Personal\gif-expert\src" />
-      <recent name="D:\User\ignac\Escritorio\gif-expert\src\assets" />
-      <recent name="D:\User\ignac\Escritorio\gif-expert" />
-    </key>
-  </component>
-  <component name="RunManager" selected="npm.build:style">
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="build:style" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build:style" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="rename:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="rename:build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
+        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -112,71 +67,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build:style" />
-        <item itemvalue="npm.rename:build" />
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.start" />
+        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d511df1a-ffe9-4ebe-8071-927841a10f06" name="Default Changelist" comment="" />
-      <created>1600443805571</created>
+      <changelist id="ab38da63-fe81-42b2-b763-4f240673630a" name="Default Changelist" comment="" />
+      <created>1605330979809</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1600443805571</updated>
-      <workItem from="1600443806707" duration="1563000" />
-      <workItem from="1600484347407" duration="8053000" />
-      <workItem from="1600570654970" duration="4110000" />
-      <workItem from="1601179531705" duration="29439000" />
-      <workItem from="1605328911941" duration="149000" />
-      <workItem from="1605329069103" duration="316000" />
+      <updated>1605330979809</updated>
+      <workItem from="1605330980938" duration="1091000" />
     </task>
-    <task id="LOCAL-00001" summary="beginning UI, first look...">
-      <created>1600491733125</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1600491733125</updated>
-    </task>
-    <task id="LOCAL-00002" summary="pendiente el fetch hook... -_-">
-      <created>1601185771455</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1601185771455</updated>
-    </task>
-    <task id="LOCAL-00003" summary="terminando gif expert utilizando tailwind css">
-      <created>1601259388442</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1601259388442</updated>
-    </task>
-    <task id="LOCAL-00004" summary="finished application">
-      <created>1601429792222</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1601429792222</updated>
-    </task>
-    <task id="LOCAL-00005" summary="folder deploy &quot;docs&quot;">
-      <created>1601430504565</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1601430504565</updated>
-    </task>
-    <task id="LOCAL-00006" summary="fix error in index.html">
-      <created>1601430852719</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1601430852719</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,57 +96,23 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="beginning UI, first look..." />
-    <MESSAGE value="pendiente el fetch hook... -_-" />
-    <MESSAGE value="terminando gif expert utilizando tailwind css" />
-    <MESSAGE value="finished application" />
-    <MESSAGE value="folder deploy &quot;docs&quot;" />
-    <MESSAGE value="fix error in index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix error in index.html" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="663" y="458" width="722" height="341" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1601186140612">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1605332046387">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="663" y="458" width="722" height="341" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1601186140612" />
-    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600443963053">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1605332046387" />
+    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1605332046387">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1600443963053" />
-    <state x="707" y="380" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601186617348">
+    <state width="1877" height="277" key="GridCell.Tab.0.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1605332046387" />
+    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1605332046387">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="707" y="380" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1601186617348" />
-    <state x="838" y="423" key="Github.ShareDialog" timestamp="1600445361238">
+    <state width="1877" height="277" key="GridCell.Tab.0.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1605332046387" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1605332046387">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="838" y="423" key="Github.ShareDialog/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1600445361238" />
-    <state width="1877" height="180" key="GridCell.Tab.0.bottom" timestamp="1601430440648">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="180" key="GridCell.Tab.0.bottom/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1601430440648" />
-    <state width="1877" height="180" key="GridCell.Tab.0.center" timestamp="1601430440648">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="180" key="GridCell.Tab.0.center/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1601430440648" />
-    <state width="1877" height="180" key="GridCell.Tab.0.left" timestamp="1601430440648">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="180" key="GridCell.Tab.0.left/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1601430440648" />
-    <state width="1877" height="180" key="GridCell.Tab.0.right" timestamp="1601430440648">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="180" key="GridCell.Tab.0.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1601430440648" />
-    <state x="448" y="274" key="SettingsEditor" timestamp="1601186318826">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="448" y="274" key="SettingsEditor/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1601186318826" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601430854303">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1601430854303" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right/-1920.0.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1605332046387" />
   </component>
 </project>
