@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "234ee0c72b472ba41e04421987e9bfcd",
+    "revision": "1b3bd002e0cb8da3038ccb9e4dcf45cd",
     "url": "/ignaciocastro0713.github.io/gif-expert/index.html"
   },
   {
-    "revision": "34468aef1262c9f5054b",
+    "revision": "94931f85be36894208b5",
     "url": "/ignaciocastro0713.github.io/gif-expert/static/css/main.8564aa7a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ignaciocastro0713.github.io/gif-expert/static/js/2.83a53aea.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34468aef1262c9f5054b",
-    "url": "/ignaciocastro0713.github.io/gif-expert/static/js/main.385a7ebe.chunk.js"
+    "revision": "94931f85be36894208b5",
+    "url": "/ignaciocastro0713.github.io/gif-expert/static/js/main.99c6e6a1.chunk.js"
   },
   {
     "revision": "af54c901705032e385c6",
