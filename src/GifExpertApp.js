@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AddCategory, GifGrid } from "./components";
+import { AddCategory, GifGrid } from './components';
 
 function GifExpertApp() {
   const [categories, setCategories] = useState(['Rick and Morty']);
